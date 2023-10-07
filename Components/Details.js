@@ -1,10 +1,10 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text,StyleSheet} from 'react-native';
 const Details = props => {
   const {name} = props.route.params;
   return (
     <View>
-      <Text>{name}</Text>
+      <Text style={{color:'black'}}>{name}</Text>
     </View>
   );
 };
